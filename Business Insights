@@ -1,0 +1,107 @@
+## Business Problem
+•	Revenue and customer behavior vary across time, location, and product categories, but the business lacks clear insights to optimize staffing, inventory, and marketing decisions.
+•	This project analyzes Walmart sales data using SQL to identify key drivers of revenue and translate them into actionable business decisions.
+
+---
+## What I Did
+- Performed feature engineering (time_of_day, day_name, month_name) to make raw data more usable  
+- Analyzed sales performance by product line, city, and time  
+- Explored customer behavior (payment methods, gender preferences, ratings)  
+- Translated query results into business insights and recommendations  
+
+---
+## Key Insights and Business Actions
+### Time-Based Behavior
+- Customer activity varies across morning, afternoon, and evening  
+- Helps identify peak shopping periods  
+
+Action:
+- Schedule staff during peak hours to reduce wait time  
+- Run time-based promotions (e.g., morning deals, evening bundles)  
+- Adjust operations like inventory restocking  
+
+Limitation:
+- Fixed time buckets may not fully capture real peak hours  
+
+---
+### Weekly and Monthly Trends
+- Sales differ by day of week and month  
+- Some days and months consistently perform better  
+
+Action:
+- Increase staffing on high-demand days  
+- Run promotions on low-performing days  
+- Plan inventory based on demand cycles  
+
+Limitation:
+- No holiday data and only one year of data, so seasonality is limited  
+
+---
+### Location Performance
+- Revenue varies across cities and branches  
+
+Action:
+- Invest more in high-performing locations  
+- Analyze successful branches and apply strategies to weaker ones  
+
+---
+### Product and Revenue Drivers
+- Certain product lines drive most sales and revenue  
+
+Action:
+- Focus inventory and marketing on top-performing products  
+- Bundle popular items with slower-moving ones  
+- Review pricing strategy for high-revenue categories  
+
+---
+### Customer Payment Behavior
+- Some payment methods are used more frequently  
+
+Action:
+- Optimize checkout experience for popular payment methods  
+- Partner with payment providers for promotions  
+
+Limitation:
+- No data on failed transactions or customer preference vs availability  
+
+---
+### Customer Segmentation
+- Product preferences differ by gender  
+
+Action:
+- Personalize marketing campaigns  
+- Adjust product placement based on target customers  
+
+Limitation:
+- Only basic segmentation (gender), so insights are limited  
+
+---
+### Customer Satisfaction
+- Average ratings vary across product lines  
+
+Action:
+- Improve low-rated products  
+- Promote high-rated items as customer favorites  
+- Support quality improvement decisions  
+
+Limitation:
+- Ratings may be biased since not all customers leave reviews  
+
+---
+### Cost and Profit Signals
+- Some months show higher cost of goods sold (COGS)  
+
+Action:
+- Investigate cost drivers such as supplier pricing or demand spikes  
+- Adjust pricing or sourcing strategy  
+
+---
+## Next Steps
+- Analyze profitability (revenue vs cost) by product and location  
+- Add customer retention and repeat purchase analysis  
+- Incorporate marketing data to measure ROI  
+- Improve time segmentation using more precise time intervals  
+
+---
+## Key Takeaway
+This project shows how SQL can be used not just to query data, but to answer real business questions and turn data into decisions that improve operations, revenue, and customer experience.
